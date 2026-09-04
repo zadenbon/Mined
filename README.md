@@ -27,9 +27,8 @@ Hazy is itself based on [DynamicDefault](https://github.com/JulienMaille/spiceti
   <img src="https://github.com/Astromations/Hazy/assets/80211195/ee64d41c-33f2-41ed-9c70-03a639383570"><img>
 </span>
 **Click the new "Now Playing View" button to activate the sidebar**
-
-### ⬇️ Automatic Installation (Windows) ⬇️
 ---
+### ⬇️ Windows Installation ⬇️
 Open **PowerShell** and run:
 
 ```powershell
@@ -37,7 +36,6 @@ iwr -useb https://githubusercontent.com | iex
 ```
 ---
 ### 📃 Manual Installation 📃
----
 Download the repo and put `user.css`, `theme.js`, and `color.ini` into a new folder named `Mined`, and place this folder into your `Themes` folder in `.spicetify`. 
 
 Then run these commands to apply:
@@ -48,8 +46,7 @@ spicetify config inject_css 1 replace_colors 1 overwrite_assets 1 inject_theme_j
 spicetify apply
 ```
 ---
-### 🐧 Linux 🐧
----
+### 🐧 Linux 
 Clone the repo, symlink it into your Themes folder, then apply. This way, editing the files in your clone updates the theme directly.
 
 ```bash
@@ -59,6 +56,6 @@ spicetify config current_theme Mined
 spicetify config inject_css 1 replace_colors 1 overwrite_assets 1 inject_theme_js 1
 spicetify apply
 ```
-
+---
 ## Credits
 Built on top of [Hazy](https://github.com) by Astromations. All credit for the original design and structure goes to them.
