@@ -1,4 +1,3 @@
-cat > ~/Mined/README.md << 'EOF'
 # Mined
 
 A lighter, faster fork of [Hazy](https://github.com/Astromations/Hazy) by [Astromations](https://github.com/Astromations). Same translucent look, without the CPU/GPU cost. Background blur and Canvas video are stripped out, and the UI is decluttered (no home page recommendations, no now-playing sidebar extras).
