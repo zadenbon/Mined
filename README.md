@@ -1,3 +1,4 @@
+cat > ~/Mined/README.md << 'EOF'
 # Mined
 A lighter, faster fork of [Hazy](https://github.com/Astromations/Hazy) by [Astromations](https://github.com/Astromations). Same translucent look, without the CPU/GPU cost. Background blur and Canvas video are stripped out, and the UI is decluttered (no home page recommendations, no now-playing sidebar extras).
 Hazy is itself based on [DynamicDefault](https://github.com/JulienMaille/spicetify-dynamic-theme) and [Bloom](https://github.com/nimsandu/spicetify-bloom).
@@ -41,7 +42,7 @@ spicetify config current_theme Mined
 spicetify config inject_css 1 replace_colors 1 overwrite_assets 1 inject_theme_js 1
 spicetify apply
 ```
-### 🐧 Linux  🐧
+### 🐧 Linux (development setup) 🐧
 ---
 Clone the repo, symlink it into your Themes folder, then apply. This way, editing the files in your clone updates the theme directly.
 ```bash
@@ -52,4 +53,5 @@ spicetify config inject_css 1 replace_colors 1 overwrite_assets 1 inject_theme_j
 spicetify apply
 ```
 ## Credits
-Built on top of [Hazy](https://github.com/Astromations/Hazy) by Astromations. All credit for the original design and structure goes to them.
+Built on top of [Hazy](https://github.com/Astromations/Hazy) by Astromations. All credit for the original design and theme structure goes to them.
+EOF
