@@ -109,7 +109,7 @@ ALBUM ART BACKGROUND
   position: fixed;
   display: block;
   inset: 0;
-  filter: blur(var(--blur)) contrast(var(--cont)) saturate(var(--satu))
+  filter: contrast(var(--cont)) saturate(var(--satu))
     brightness(var(--bright));
   pointer-events: none;
   backface-visibility: hidden;
@@ -133,7 +133,7 @@ html:not(.spotify__container--is-desktop.fullscreen)
   position: absolute;
   right: 0;
   z-index: 999;
-  backdrop-filter: brightness(2.12);
+  backdrop-filter: none;
   width: calc(135px / var(--zoom, 1));
   height: calc(var(--topbar-height, 40px) / var(--zoom, 1));
 }
@@ -164,7 +164,7 @@ NAVIGATION BAR
 }
 
 .TkqXOzhmCCuE6YI3hlgA, .WBFaUw_oOfN2m4aTxggt {
-  backdrop-filter: blur(20px);
+  backdrop-filter: none;
 }
 
 .Root__nav-bar [fade="top"] {
@@ -246,7 +246,7 @@ YOUR LIBRARY
   background-color: transparent;
 }
 #Desktop_LeftSidebar_Id.yXlTmwlWtDebsivA1gM6 {
-  backdrop-filter: blur(25px) !important;
+  backdrop-filter: none;
   width: calc(100% + var(--panel-gap))
 }
 
@@ -610,7 +610,7 @@ SIDEBAR
 
 /* Blur header background in now playing view */
 .vDev2BqBHloweL24GNHK .yvZooOj0rpfRS__cAUCo {
-  backdrop-filter: blur(12px);
+  backdrop-filter: none;
 }
 
 /* Fix friend activity play icon hover background */
@@ -776,7 +776,7 @@ PLAYLIST VIEW
 
 .main-trackList-trackListHeader {
   box-shadow: none !important;
-  backdrop-filter: blur(8px) !important;
+  backdrop-filter: none;
 }
 
 .main-trackList-trackListRow:focus-within,
@@ -998,7 +998,7 @@ TOP BAR
 
 .main-topBar-background {
   background: none;
-  backdrop-filter: blur(25px) !important;
+  backdrop-filter: none;
 }
 
 .main-topBar-overlay {
@@ -1357,7 +1357,7 @@ div.BV0jjn_h5TtMMl8YKuZ0 > button {
 #recent-searches-dropdown > div,
 #search-dropdown > div,
 #search-suggestions-loading-dropdown > div {
-  backdrop-filter: blur(25px);
+  backdrop-filter: none;
 }
 
 /* Remove extra margin added to "browse all" page header */
@@ -1461,7 +1461,7 @@ MISCELLANEOUS
 
 .main-popper-container {
   background-color: rgba(0, 0, 0, 0.45);
-  backdrop-filter: blur(25px) !important;
+  backdrop-filter: none;
 }
 
 .hcuLp8V4uEEfWZ4k6aLV {
@@ -1518,12 +1518,12 @@ SNACKBAR NOTIFS
 .notistack-Snackbar > div:not(div.notistack-MuiContent) {
   background-color: var(--backdrop-darker);
 
-  backdrop-filter: blur(10px) !important;
+  backdrop-filter: none;
 }
 
 /* error toast */
 .notistack-Snackbar > div.notistack-MuiContent {
-  backdrop-filter: blur(3.5px) !important;
+  backdrop-filter: none;
 }
 
 .notistack-Snackbar > div > div.e-9960-box,
@@ -1912,7 +1912,7 @@ dialog.jMkF9P0MOVAsPeHbK88D,
 dialog:has(.main-duplicateTrackModal-container),
 dialog:has(div > button[aria-label="Close"]) {
   background-color: rgb(48 48 48 / 30%) !important;
-  backdrop-filter: blur(18px) !important;
+  backdrop-filter: none;
   border-radius: var(--button-border);
 }
 
@@ -2002,7 +2002,7 @@ dialog:has(div > button[aria-label="Close"]) {
 .a9bYyePMlXY0dnBfcPu1 {
   border-radius: var(--button-border) !important;
   background-color: var(--backdrop);
-  backdrop-filter: blur(25px);
+  backdrop-filter: none;
   color: white;
 }
 
@@ -2204,7 +2204,7 @@ SPOTIFY CINEMA FULLSCREEN
 
 /* Credits / Next in queue cards */
 .main-nowPlayingView-section {
-  backdrop-filter: blur(8px);
+  backdrop-filter: none;
 }
 
 /* Background color */
@@ -2253,7 +2253,7 @@ EXPERIMENTAL FEATURES
 
 .GenericModal > .main-embedWidgetGenerator-container {
   background-color: rgb(48 48 48 / 30%) !important;
-  backdrop-filter: blur(25px);
+  backdrop-filter: none;
   height: 680px;
 }
 
@@ -2401,7 +2401,7 @@ a[href="/marketplace"] {
 
 .marketplace-code-editor {
   background-color: var(--backdrop-light);
-  backdrop-filter: blur(25px);
+  backdrop-filter: none;
 }
 
 /*-----------------
@@ -2427,7 +2427,7 @@ div#context-menu:before,
 .Dropdown-menu:before,
 ul > div[data-tippy-root]:before {
   border-radius: var(--button-border) !important;
-  backdrop-filter: blur(25px);
+  backdrop-filter: none;
 }
 
 .Dropdown-menu,
@@ -2497,7 +2497,7 @@ ul > div[data-tippy-root],
 
 /* Right click context menu (indented container) */
 .main-contextMenu-menuItem > div {
-  backdrop-filter: blur(25px);
+  backdrop-filter: none;
   /* so the stupid blur filter doesn't go outside of the border radius: */
   /* EDIT 5/15/26: removed as it hid the 2nd-depth "Add to playlist" context menu */
   /*clip-path: inset(0 round var(--button-border));*/
@@ -2852,7 +2852,7 @@ POPUP MODAL
   background-color: var(--backdrop-light);
   color: var(--spice-text) !important;
 
-  backdrop-filter: blur(25px) !important;
+  backdrop-filter: none;
   box-shadow: 0 16px 24px rgba(var(--spice-rgb-shadow), 0.075),
     0 6px 8px rgba(var(--spice-rgb-shadow), 0.05) !important;
 }
@@ -2898,7 +2898,7 @@ dialog
 QUICK SEARCH MODAL
 ----------------*/
 .CqXpLitKxRFvrULhC2kW.CJCWzxw0S_yJx0wDlvPQ.BGJFigbt4tZ2RFINF8Xu {
-  backdrop-filter: blur(25px) !important;
+  backdrop-filter: none;
   box-shadow: 0 16px 24px rgba(var(--spice-rgb-shadow), 0.075),
     0 6px 8px rgba(var(--spice-rgb-shadow), 0.05) !important;
   border-radius: var(--button-border);
@@ -2933,7 +2933,7 @@ POPOVER
   background-color: var(--backdrop-light);
   color: var(--spice-text) !important;
 
-  backdrop-filter: blur(40px) !important;
+  backdrop-filter: none;
   box-shadow: 0 16px 24px rgba(var(--spice-rgb-shadow), 0.09),
     0 6px 8px rgba(var(--spice-rgb-shadow), 0.15) !important;
 }
@@ -2950,7 +2950,7 @@ POPOVER
   );
   mask-image: linear-gradient(to bottom right, transparent 50%, black 50%);
 
-  backdrop-filter: blur(40px);
+  backdrop-filter: none;
 }
 
 /*-------------------
@@ -3046,3 +3046,28 @@ body.__hazy_hidenowplayingsidebar .Root__right-sidebar:has(div[aria-hidden=true]
 body.__hazy_hidenowplayingsidebar .Root__top-container:has(.Root__right-sidebar div[aria-hidden=true]) .Root__main-view {
   width: calc(100% + var(--panel-gap)) !important;
 }
+
+/*-------------------
+MINED: DECLUTTER
+-------------------*/
+
+/* Hide About Artist, Credits, and other now-playing sidebar clutter */
+.main-nowPlayingView-aboutArtistV2 { display: none; }
+
+/* Hide the home page */
+[data-testid='home-page'] .contentSpacing > *:not(.view-homeShortcutsGrid-shortcuts, [data-testid='component-shelf']:has([href="/genre/recently-played"], [href="/section/0JQ5DAnM3wGh0gz1MXnu3z"])) {
+  display: none !important;
+}
+
+}
+
+/* Hide "Recently Played" section on homepage */
+.view-homeShortcutsGrid-shortcuts, section[aria-label='Recently played'] {
+  display: none;
+}
+
+/* Hide the recent-searches shelf on search page */
+.main-shelf-shelf:has(.x-searchHistoryEntries-searchHistoryEntry) {
+  display: none;
+}
+
