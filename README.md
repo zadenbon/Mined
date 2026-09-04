@@ -17,7 +17,7 @@ Hazy is itself based on [DynamicDefault](https://github.com/JulienMaille/spiceti
 
 ---
 
-### ⬇️ Windows Installation ⬇️
+### 🪟 Windows Installation
 Open **PowerShell** and run:
 
 ```powershell
