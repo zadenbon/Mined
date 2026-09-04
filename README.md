@@ -28,6 +28,7 @@ Hazy is itself based on [DynamicDefault](https://github.com/JulienMaille/spiceti
 </span>
 **Click the new "Now Playing View" button to activate the sidebar**
 ---
+
 ### ⬇️ Windows Installation ⬇️
 Open **PowerShell** and run:
 
