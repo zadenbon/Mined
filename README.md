@@ -1,13 +1,12 @@
-cat > ~/Mined/README.md << 'EOF'
 # Mined
-A lighter, faster fork of [Hazy](https://github.com/Astromations/Hazy) by [Astromations](https://github.com/Astromations). Same translucent look, without the CPU/GPU cost. Background blur and Canvas video are stripped out, and the UI is decluttered (no home page recommendations, no now-playing sidebar extras).
+A lighter, faster fork of [Hazy](https://github.com/Astromations/Hazy) by [Astromations](https://github.com/Astromations). Same translucent glass look, without the CPU/GPU cost. Background blur and Canvas video are stripped out, and the UI is decluttered (no home page recommendations, no now-playing sidebar extras).
 Hazy is itself based on [DynamicDefault](https://github.com/JulienMaille/spicetify-dynamic-theme) and [Bloom](https://github.com/nimsandu/spicetify-bloom).
 ## What's different from Hazy
 - Removed background blur (`filter: blur()`) was the single biggest CPU/GPU cost
 - Removed `backdrop-filter` blur on panels
 - Disabled Canvas (looping video backgrounds)
 - Hidden home page recommendations and now-playing sidebar clutter
-- Noticeably less stutter scrolling large playlists
+- Noticeably less stuttering while scrolling large playlists
 ## Preview
 **Custom Backgrounds**
 ![demo-base](./hazy_home.png)
@@ -36,7 +35,7 @@ Open **PowerShell** and run:
 ```powershell
 iwr -useb https://githubusercontent.com | iex
 ```
-
+---
 ### 📃 Manual Installation 📃
 ---
 Download the repo and put `user.css`, `theme.js`, and `color.ini` into a new folder named `Mined`, and place this folder into your `Themes` folder in `.spicetify`. 
@@ -48,7 +47,7 @@ spicetify config current_theme Mined
 spicetify config inject_css 1 replace_colors 1 overwrite_assets 1 inject_theme_js 1
 spicetify apply
 ```
-
+---
 ### 🐧 Linux 🐧
 ---
 Clone the repo, symlink it into your Themes folder, then apply. This way, editing the files in your clone updates the theme directly.
