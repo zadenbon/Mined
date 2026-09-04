@@ -24,18 +24,7 @@ Open **PowerShell** and run:
 iwr -useb https://raw.githubusercontent.com/zadenbon/Mined/main/install.ps1 | iex
 ```
 ---
-### 📃 Manual Installation 📃
-Download the repo and put `user.css`, `theme.js`, and `color.ini` into a new folder named `Mined`, and place this folder into your `Themes` folder in `.spicetify`. 
-
-Then run these commands to apply:
-
-```powershell
-spicetify config current_theme Mined
-spicetify config inject_css 1 replace_colors 1 overwrite_assets 1 inject_theme_js 1
-spicetify apply
-```
----
-### 🐧 Linux 
+### 🐧 Linux / 🍏 macOS
 Clone the repo, symlink it into your Themes folder, then apply. This way, editing the files in your clone updates the theme directly.
 
 ```bash
@@ -46,18 +35,16 @@ spicetify config inject_css 1 replace_colors 1 overwrite_assets 1 inject_theme_j
 spicetify apply
 ```
 ---
-### 🍏 macOS
+### 📃 Manual Installation 📃
+Download the repo and put `user.css`, `theme.js`, and `color.ini` into a new folder named `Mined`, and place this folder into your `Themes` folder in `.spicetify`. 
 
-Open your terminal and run the following block of commands to clone the repo, link it to your Spicetify setup, and apply the theme:
+Then run these commands to apply:
 
-```bash
-git clone https://github.com ~/Mined
-ln -s ~/Mined ~/.config/spicetify/Themes/Mined
+```powershell
 spicetify config current_theme Mined
 spicetify config inject_css 1 replace_colors 1 overwrite_assets 1 inject_theme_js 1
 spicetify apply
 ```
-
 ---
 ## Credits
 Built on top of [Hazy](https://github.com/Astromations/Hazy) by Astromations. All credit for the original design and structure goes to them.
