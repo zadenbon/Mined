@@ -47,4 +47,4 @@ spicetify apply
 ```
 ---
 ## Credits
-Built on top of [Hazy](https://github.com) by Astromations. All credit for the original design and structure goes to them.
+Built on top of [Hazy](https://github.com/Astromations/Hazy) by Astromations. All credit for the original design and structure goes to them.
